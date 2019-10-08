@@ -17,12 +17,31 @@ Education
 
 Work experience
 ======
-* 2019: Research Assistant
+* 2019: Research Center of Universidad del Pacífico (CIUP)
 
-* 2018: Research Associate
-
-* 2017: Research Assistant
+    *Research Assistant*
   
+    Review Literature, clean and analyse administrative data-sets, and design research proposals. Topics: pension system, informality, and  health insurance effects
+
+* 2018: Innovations for Poverty Action (IPA)
+
+    *Research Associate*
+
+    Implement, monitor, and evaluate the Pilot of a Randomized Controlled Trial (RCT) to promote the participation of informal workers in the Pension System through a matching contribution scheme.
+
+* 2017: Behavioral and Experimental Economics Laboratory (GECE)
+
+    *Research Assistant*
+
+    Design, implement and analyse laboratory experiments. Use oTree platform to program economic games (public goods, beauty contest, and prisoner dilemma) and test them with university students in order to evaluate their preferences and choices.
+    
+* 2015: Central Bank of Peru (BCRP)
+
+    *Intern*
+    
+    Clean data and present reports using Stata and R. Organize papers in LaTeX for their publication in the Economics Studies Journal (REE, Revista de Estudios Economicos)
+    
+    
 Skills
 ======
 * Clean and Analize datasets (administrative and collected)
