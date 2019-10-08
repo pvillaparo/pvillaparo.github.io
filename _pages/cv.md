@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 paperurl: 'http://pvillaparo.github.io/files/CV_Paola_Villa.pdf'  
 ---
-[Download CV here](http://pvillaparo.github.io/files/CV_Paola_Villa.pdf)
+[Open my CV here](http://pvillaparo.github.io/files/CV_Paola_Villa.pdf)
 {% include base_path %}
 
 Education
