@@ -5,9 +5,9 @@ permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'  
+paperurl: 'http://pvillaparo.github.io/files/CV_Paola_Villa.pdf'  
 ---
-
+[Download CV here](http://pvillaparo.github.io/files/CV_Paola_Villa.pdf)
 {% include base_path %}
 
 Education
