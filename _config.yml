@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Paola Gabriela Villa-Paro"
 title_separator          : "-"
-name                     : &name "Paola Gabriela Villa-Paro"
+name                     : &name "Paola Villa-Paro"
 description              : &description "Research Assistant at CIUP, Economist"
 url                      : https://pvillaparo.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Paola Villa-Paro"
   avatar           : "social_photo.jpeg"
-  bio              : "Research Assistant at Research Center of Universidad del Pacífico (CIUP), Incan Princess and Economist"
+  bio              : "Research Assistant at CIUP, Incan Princess and Economist"
   location         : "Lima, Peru"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
