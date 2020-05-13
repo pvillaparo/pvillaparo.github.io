@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Paola Villa-Paro"
 title_separator          : "-"
 name                     : &name "Paola Villa-Paro"
-description              : &description "Research Assistant at CIUP, Economist"
+description              : &description "Econ Predoc at Princeton University"
 url                      : https://pvillaparo.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "pvillaparo/pvillaparo.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Paola Villa-Paro"
   avatar           : "social_photo.jpeg"
-  bio              : "Research Assistant at CIUP, Incan Princess and Economist"
+  bio              : "Incan Princess and Research Specialist at Princeton University"
   location         : "Lima, Peru"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
