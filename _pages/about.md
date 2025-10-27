@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About Me"
+title: "Paola G. Villa Paro"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
