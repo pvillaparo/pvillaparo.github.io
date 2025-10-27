@@ -1,6 +1,28 @@
 {% include base_path %}
 
 <!-- start custom head snippets -->
+
+{% assign page_title = page.title | default: site.title %}
+{% assign page_desc  = page.description | default: page.excerpt | default: site.description %}
+{% assign page_url   = page.url | absolute_url %}
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ page_title }}">
+<meta property="og:description" content="{{ page_desc | strip_newlines | escape }}">
+<meta property="og:url" content="{{ page_url }}">
+<meta property="og:image" content="{{ '/images/og-cover.png' | relative_url | absolute_url }}">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ page_title }}">
+<meta name="twitter:description" content="{{ page_desc | strip_newlines | escape }}">
+<meta name="twitter:image" content="{{ '/images/og-cover.png' | relative_url | absolute_url }}">
+
+<!-- Canonical (helps crawlers) -->
+<link rel="canonical" href="{{ page_url }}">
+
+
 <link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y=".9em" font-size="90">👩🏽‍🎓</text></svg>'>
 <link rel="apple-touch-icon" sizes="57x57" href="{{ base_path }}/images/apple-touch-icon-57x57.png?v=M44lzPylqQ">
 <link rel="apple-touch-icon" sizes="60x60" href="{{ base_path }}/images/apple-touch-icon-60x60.png?v=M44lzPylqQ">
