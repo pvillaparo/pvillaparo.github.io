@@ -5,7 +5,16 @@ permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
-paperurl: 'http://pvillaparo.github.io/files/CV_Paola_Villa.pdf'  
+paperurl: '/files/VillaParo_CV_2026.pdf'
 ---
-[Open my recent CV here](http://pvillaparo.github.io/files/CV_Paola_Villa.pdf)
+[Download my CV](/files/VillaParo_CV_2026.pdf)
+
+<iframe
+  src="/files/VillaParo_CV_2026.pdf"
+  title="Paola Gabriela Villa Paro CV"
+  width="100%"
+  height="900"
+  style="border: 1px solid #d9d9d9;">
+</iframe>
+
 {% include base_path %}
