@@ -5,9 +5,9 @@ date: 2025-10-25
 permalink: /publication/2025-10-25-APLdynamics
 paperurl: "/files/VillaParo_extendedabstract_v27aug2026.pdf"
 paper_label: "Download extended abstract here"
-excerpt: "I study the implementation and repeal of Peru's Agrarian Promotion Law to quantify how policy wedges reshape worker sorting, wages, and employment. This reform modified profit taxes for eligible agro-industrial firms and introduced a flexible agrarian labor regime within the span of 2001-2025."
+excerpt: "I study Peru's 2021 agrarian reform to examine who bears the cost of mandated benefits when firms have wage-setting power. The reform increased non-wage labor costs for covered agrarian and agroindustrial firms, while formal employment rose, cash wages stayed roughly flat, and pre-tax profit margins fell. I argue that this pattern is difficult to reconcile with competitive incidence, but consistent with benefit mandates redistributing part of firm rents when cash wages are constrained by a statutory wage floor."
 
 ---
-This research plan outlines a comprehensive reduced-form econometric strategy to estimate the effects of Laws 27360 and 31110 on labor market outcomes (wages, employment) and firm performance, using a Difference-in-Differences (DiD) framework and an extended event-study analysis.
+I study Peru's 2021 agrarian reform to examine who bears the cost of mandated benefits when firms have wage-setting power. The reform increased non-wage labor costs for covered agrarian and agroindustrial firms, while formal employment rose, cash wages stayed roughly flat, and pre-tax profit margins fell. I argue that this pattern is difficult to reconcile with competitive incidence, but consistent with benefit mandates redistributing part of firm rents when cash wages are constrained by a statutory wage floor.
 
 [Download extended abstract here](/files/VillaParo_extendedabstract_v27aug2026.pdf)
