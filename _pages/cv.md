@@ -5,9 +5,9 @@ permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
-paperurl: 'http://pvillaparo.github.io/files/CV_Paola_Villa.pdf'  
+paperurl: 'http://pvillaparo.github.io/files/VillaParo_CV_2026.pdf'  
 ---
-[Open my recent CV here](http://pvillaparo.github.io/files/CV_Paola_Villa.pdf)
+[Open my recent CV here](http://pvillaparo.github.io/files/VillaParo_CV_2026.pdf)
 {% include base_path %}
 
   
