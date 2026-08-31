@@ -1,5 +1,5 @@
 ---
-title: "Do informal workers of small firms self-insurance forretirement?"
+title: "Do Informal Workers in Small Firms Self-Insure for Retirement?"
 collection: publications
 date: 2019-08-08
 permalink: /publication/2019-08-08-informalworkers
