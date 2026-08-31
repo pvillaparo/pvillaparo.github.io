@@ -8,6 +8,4 @@ date: 2018-03-01
 location: "Lima, Peru"
 ---
 
-Responsible for two hours of classes a week, designing exams, and grading.
-
 Course: Microeconomics I, 2017-2018.
