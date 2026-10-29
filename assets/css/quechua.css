@@ -1,0 +1,324 @@
+/* Loaded only for the Quechua page through page.rimay_theme. */
+:root {
+  --rimay-bg: #F8F1E5;
+  --rimay-surface: #FFFCF6;
+  --rimay-ink: #3E291F;
+  --rimay-brown: #5B3B28;
+  --rimay-primary: #7B272B;
+  --rimay-primary-dark: #612024;
+  --rimay-gold: #B68A38;
+  --rimay-gold-light: #E7C57C;
+  --rimay-gold-soft: #F5E8C8;
+  --rimay-gold-ink: #7D5A1E;
+  --rimay-line: #DFD0B9;
+  --rimay-muted: #75604E;
+}
+
+body {
+  background: var(--rimay-bg);
+  color: var(--rimay-ink);
+}
+
+body a { color: var(--rimay-primary); }
+body a:hover { color: var(--rimay-primary-dark); }
+body a:focus-visible,
+body button:focus-visible {
+  outline: 3px solid var(--rimay-gold);
+  outline-offset: 5px;
+}
+
+.masthead {
+  background: var(--rimay-ink);
+  border-bottom: 3px solid var(--rimay-gold);
+}
+
+.greedy-nav { background: var(--rimay-ink); }
+.greedy-nav a { color: var(--rimay-surface); }
+.greedy-nav a:hover { color: var(--rimay-gold-light); }
+.greedy-nav .visible-links a::before { background: var(--rimay-gold-light); }
+.greedy-nav .visible-links a[href$="/quechua/"] {
+  color: var(--rimay-gold-light);
+}
+.greedy-nav .visible-links a[href$="/quechua/"]::before {
+  transform: scaleX(1);
+}
+
+.greedy-nav button {
+  background: var(--rimay-primary);
+  color: var(--rimay-surface);
+  border-radius: 5px;
+}
+.greedy-nav .navicon,
+.greedy-nav .navicon::before,
+.greedy-nav .navicon::after { background: var(--rimay-gold-light); }
+.greedy-nav .close .navicon { background: transparent; }
+.greedy-nav .hidden-links {
+  background: var(--rimay-surface);
+  border-color: var(--rimay-line);
+  border-radius: 10px;
+  box-shadow: 0 12px 28px rgba(62, 41, 31, .16);
+}
+.greedy-nav .hidden-links a { color: var(--rimay-brown); }
+.greedy-nav .hidden-links a:hover {
+  background: var(--rimay-gold-soft);
+  color: var(--rimay-primary);
+}
+.greedy-nav .hidden-links li { border-bottom-color: var(--rimay-line); }
+.greedy-nav .hidden-links::before { border-color: var(--rimay-line) transparent; }
+.greedy-nav .hidden-links::after { border-color: var(--rimay-surface) transparent; }
+
+.page__title { color: var(--rimay-primary); }
+.sidebar .author__name { color: var(--rimay-brown); }
+.sidebar .author__bio { color: var(--rimay-muted); }
+.author__avatar img { border-color: var(--rimay-line); }
+.author__urls-wrapper button {
+  color: var(--rimay-brown);
+  background: var(--rimay-surface);
+  border: 1px solid var(--rimay-line);
+}
+.author__urls {
+  color: var(--rimay-brown);
+  background: var(--rimay-surface);
+  border-color: var(--rimay-line);
+}
+.author__urls::before { border-color: var(--rimay-line) transparent; }
+.author__urls::after { border-color: var(--rimay-surface) transparent; }
+.sidebar .author__urls a { color: var(--rimay-brown); }
+.sidebar .author__urls a:hover { color: var(--rimay-primary); }
+
+#rimay-quechua {
+  font-family: ui-rounded, "Avenir Next", "Nunito", system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: var(--rimay-ink);
+  overflow-wrap: anywhere;
+}
+
+#rimay-quechua h2,
+#rimay-quechua h3 {
+  font-family: inherit;
+  letter-spacing: -.025em;
+  line-height: 1.2;
+}
+#rimay-quechua h2 { border: 0; padding: 0; }
+#rimay-quechua p { line-height: 1.7; }
+
+#rimay-quechua .rimay-hero {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  padding: 32px;
+  margin: 22px 0 26px;
+  border: 1px solid var(--rimay-primary-dark);
+  border-radius: 24px;
+  background: var(--rimay-primary);
+  color: var(--rimay-surface);
+  box-shadow: 0 9px 24px rgba(62, 41, 31, .07);
+}
+#rimay-quechua .rimay-hero::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  bottom: 0;
+  width: 180px;
+  height: 155px;
+  background: var(--rimay-gold-light);
+  opacity: .10;
+  clip-path: polygon(0 100%, 0 80%, 20% 80%, 20% 60%, 40% 60%,
+    40% 40%, 60% 40%, 60% 20%, 80% 20%, 80% 0, 100% 0, 100% 100%);
+  pointer-events: none;
+}
+#rimay-quechua .rimay-brand {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 26px;
+}
+#rimay-quechua .rimay-logo {
+  display: block;
+  flex: 0 0 auto;
+  width: 50px;
+  height: 50px;
+  color: var(--rimay-gold-light);
+}
+#rimay-quechua .rimay-wordmark {
+  color: var(--rimay-surface);
+  font-size: 2.65rem;
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: -.065em;
+}
+#rimay-quechua .rimay-dot { color: var(--rimay-gold-light); }
+#rimay-quechua .rimay-beta {
+  display: inline-block;
+  margin-left: auto;
+  padding: 6px 10px;
+  border: 1px solid rgba(231, 197, 124, .45);
+  border-radius: 20px;
+  color: var(--rimay-gold-soft);
+  font-size: .58rem;
+  font-weight: 800;
+  letter-spacing: .08em;
+  line-height: 1.4;
+}
+#rimay-quechua .rimay-hero h2 {
+  color: var(--rimay-surface);
+  font-size: clamp(1.75rem, 3.2vw, 2.35rem);
+  font-weight: 800;
+  margin: 0 0 14px;
+  max-width: 19ch;
+}
+#rimay-quechua .rimay-hero-copy {
+  color: var(--rimay-surface);
+  font-size: .94rem;
+  margin: 0 0 23px;
+  max-width: 56ch;
+}
+#rimay-quechua a.rimay-cta,
+#rimay-quechua a.rimay-cta:visited {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  min-height: 48px;
+  padding: 12px 24px;
+  border: 1px solid var(--rimay-gold-light);
+  border-bottom: 4px solid var(--rimay-gold-ink);
+  border-radius: 13px;
+  background: var(--rimay-gold-light);
+  color: var(--rimay-ink);
+  font-size: .94rem;
+  font-weight: 800;
+  line-height: 1.25;
+  text-decoration: none;
+}
+#rimay-quechua a.rimay-cta:hover {
+  color: var(--rimay-ink);
+  background: var(--rimay-gold-soft);
+  text-decoration: none;
+}
+#rimay-quechua a.rimay-cta:focus-visible {
+  outline: 3px solid var(--rimay-surface);
+  outline-offset: 5px;
+}
+#rimay-quechua .rimay-hero-note {
+  margin: 13px 0 0;
+  color: var(--rimay-gold-soft);
+  font-size: .68rem;
+}
+#rimay-quechua .rimay-intro {
+  font-size: .92rem;
+  color: var(--rimay-brown);
+  margin: 0 0 25px;
+}
+
+#rimay-quechua .rimay-rights {
+  padding: 22px 24px;
+  margin: 0 0 26px;
+  border: 1px solid var(--rimay-line);
+  border-left: 5px solid var(--rimay-gold);
+  border-radius: 16px;
+  color: var(--rimay-brown);
+  background: var(--rimay-gold-soft);
+}
+#rimay-quechua .rimay-rights h3 {
+  color: var(--rimay-primary);
+  font-size: 1.05rem;
+  font-weight: 800;
+  margin: 0 0 13px;
+}
+#rimay-quechua .rimay-rights p {
+  margin: 0 0 13px;
+  font-size: .83rem;
+}
+#rimay-quechua .rimay-rights strong { color: var(--rimay-brown); }
+#rimay-quechua .rimay-rights .rimay-source {
+  padding-top: 12px;
+  margin-bottom: 0;
+  border-top: 1px solid #DAC79D;
+  font-size: .75rem;
+}
+
+#rimay-quechua .rimay-features {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin: 0 0 24px;
+}
+#rimay-quechua .rimay-feature {
+  min-width: 0;
+  padding: 22px 20px;
+  border: 1px solid var(--rimay-line);
+  border-radius: 17px;
+  background: var(--rimay-surface);
+}
+#rimay-quechua .rimay-feature-number {
+  display: block;
+  color: var(--rimay-gold-ink);
+  font-size: .72rem;
+  font-weight: 850;
+  letter-spacing: .06em;
+  margin-bottom: 11px;
+}
+#rimay-quechua .rimay-feature h3 {
+  color: var(--rimay-primary);
+  font-size: 1rem;
+  font-weight: 800;
+  margin: 0 0 12px;
+}
+#rimay-quechua .rimay-feature p {
+  color: var(--rimay-brown);
+  font-size: .78rem;
+  line-height: 1.65;
+  margin: 0;
+}
+#rimay-quechua .rimay-notes {
+  padding: 20px 22px;
+  border: 1px solid var(--rimay-line);
+  border-radius: 16px;
+  background: transparent;
+  color: var(--rimay-muted);
+}
+#rimay-quechua .rimay-notes h3 {
+  color: var(--rimay-brown);
+  font-size: .95rem;
+  margin: 0 0 12px;
+}
+#rimay-quechua .rimay-notes p {
+  font-size: .77rem;
+  margin: 0 0 12px;
+}
+#rimay-quechua .rimay-notes p:last-child { margin-bottom: 0; }
+
+.page__footer {
+  color: var(--rimay-muted);
+  background: #EFE3CC;
+  border-top-color: var(--rimay-line);
+}
+.page__footer .fas,
+.page__footer .fab,
+.page__footer .far,
+.page__footer .fal { color: var(--rimay-muted); }
+
+@media (min-width: 1200px) {
+  .author__urls { background: transparent; }
+}
+
+@media (max-width: 760px) {
+  #rimay-quechua .rimay-hero { padding: 25px 22px; border-radius: 19px; }
+  #rimay-quechua .rimay-features { grid-template-columns: 1fr; }
+  #rimay-quechua .rimay-brand { gap: 10px; margin-bottom: 23px; }
+  #rimay-quechua .rimay-logo { width: 42px; height: 42px; }
+  #rimay-quechua .rimay-wordmark { font-size: 2.35rem; }
+  #rimay-quechua .rimay-beta { margin-left: 0; font-size: .55rem; }
+  #rimay-quechua .rimay-hero h2 { font-size: 1.8rem; }
+  #rimay-quechua .rimay-rights { padding: 20px; }
+  #rimay-quechua .rimay-feature { padding: 20px; }
+}
+
+@media (max-width: 420px) {
+  #rimay-quechua .rimay-beta { flex-basis: auto; }
+  #rimay-quechua .rimay-hero-copy { font-size: .9rem; }
+  #rimay-quechua a.rimay-cta { width: 100%; }
+}
