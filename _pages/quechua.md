@@ -5,6 +5,10 @@ permalink: /quechua/
 excerpt: "Rimay: una adaptación para practicar los materiales de la Academia Mayor de la Lengua Quechua."
 author_profile: true
 rimay_theme: true
+share_title: "Rimay · Quechua interactivo"
+share_description: "Ejercicios, diccionario y práctica mixta de quechua. Materiales y derechos: Academia Mayor de la Lengua Quechua."
+share_image: "/images/rimay-share-v1.png"
+share_image_alt: "Rimay: llama dorada sobre fondo rojo oscuro y marrón, con el texto Quechua interactivo y el crédito a la Academia Mayor de la Lengua Quechua."
 ---
 
 <div id="rimay-quechua" class="rimay-landing" lang="es">

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Rimay · Quechua interactivo</title>
+  <desc id="desc">Rimay, beta pública para practicar Quechua. Materiales y derechos: Academia Mayor de la Lengua Quechua.</desc>
+  <rect width="1200" height="630" fill="#3E291F"/>
+  <rect x="32" y="32" width="1136" height="454" rx="28" fill="#7B272B"/>
+  <g fill="none" stroke="#E7C57C" stroke-width="2" opacity=".15">
+    <path d="M65 166V99h34V65h67M1035 65h67v34h33v67"/>
+    <path d="M65 351v67h34v35h67M1035 453h67v-35h33v-67"/>
+  </g>
+  <g fill="#E7C57C" opacity=".07">
+    <path d="M32 486V363h41v41h41v41h41v41Z"/>
+    <path d="M1168 486V363h-41v41h-41v41h-41v41Z"/>
+  </g>
+  <g fill="#E7C57C" transform="translate(385 74) scale(1.32)">
+    <path d="M14 34h26c4 0 5-3 6-8l1-11c-3-4-3-9-1-13 4 3 6 7 4 11h3c-1-4 1-8 5-10 1 5 0 9-2 12l3 2 7 3c2 1 2 4 0 5l-7 2-4 15c-1 6-4 10-8 13v11h-7l-2-11H26l-2 11h-7V54c-5-1-8-4-8-9v-5c-5-2-6-6-4-10l3-4c0 4 2 7 6 8Z"/>
+  </g>
+  <g font-family="Avenir Next, Avenir, Arial, sans-serif" text-anchor="middle">
+    <text x="641" y="157" fill="#F8F1E5" font-size="100" font-weight="750" letter-spacing="-5">rimay<tspan fill="#E7C57C">.</tspan></text>
+    <rect x="515" y="187" width="170" height="32" rx="16" fill="#3E291F" fill-opacity=".48" stroke="#E7C57C" stroke-opacity=".3"/>
+    <text x="600" y="209" fill="#E7C57C" font-size="16" font-weight="600" letter-spacing="1.1">BETA PÚBLICA</text>
+    <text x="600" y="295" fill="#F8F1E5" font-size="54" font-weight="700" letter-spacing="-1.6">Quechua interactivo</text>
+    <text x="600" y="352" fill="#F8F1E5" font-size="30" font-weight="400" letter-spacing="-.3">Un poco cada día, un nuevo camino.</text>
+    <path d="M480 391h240" stroke="#E7C57C" stroke-width="1" opacity=".3"/>
+    <text x="600" y="438" fill="#E7C57C" font-size="25" font-weight="500">Diccionario · Taller · Práctica mixta</text>
+    <text x="600" y="528" fill="#E7C57C" font-size="17" font-weight="600" letter-spacing="2.5">MATERIALES Y DERECHOS</text>
+    <text x="600" y="570" fill="#F8F1E5" font-size="29" font-weight="600" letter-spacing="-.3">Academia Mayor de la Lengua Quechua</text>
+    <text x="600" y="609" fill="#E7C57C" font-size="19" font-weight="400">pvillaparo.github.io/quechua/</text>
+  </g>
+</svg>
