@@ -14,7 +14,7 @@ Un espacio para practicar quechua paso a paso, volver a lo aprendido y estudiar 
 
 <div class="notice--info" lang="es">
   <p><strong>Materiales de aprendizaje y derechos: Academia Mayor de la Lengua Quechua.</strong> Los materiales académicos son propiedad de la Academia Mayor de la Lengua Quechua. Mi papel es facilitar su práctica mediante esta adaptación; no soy autora de los contenidos del curso.</p>
-  <p>Fuentes: materiales de los niveles 1 y 2 del curso de Ronald Cjuyro Mescco, Academia Mayor de la Lengua Quechua.</p>
+  <p>Fuentes: materiales de los niveles 1 y 2 del curso de Quechua, Academia Mayor de la Lengua Quechua.</p>
 </div>
 
 <p><a class="btn btn--large" href="https://pvillaparo.github.io/rimay/">Abrir Rimay</a></p>
