@@ -47,20 +47,35 @@ $type-size-8                : 0.625em;  // ~10px
    Colors
    ========================================================================== */
 
-$gray                       : #7a8288;
-$dark-gray                  : mix(#000, $gray, 40%);
-$darker-gray                : mix(#000, $gray, 60%);
-$light-gray                 : mix(#fff, $gray, 50%);
-$lighter-gray               : mix(#fff, $gray, 90%);
+/* Rimay palette (shared with the Quechua page, assets/css/quechua.css) */
+$rimay-bg                   : #F8F1E5;
+$rimay-surface              : #FFFCF6;
+$rimay-ink                  : #3E291F;
+$rimay-brown                : #5B3B28;
+$rimay-primary              : #7B272B;
+$rimay-primary-dark         : #612024;
+$rimay-gold                 : #B68A38;
+$rimay-gold-light           : #E7C57C;
+$rimay-gold-soft            : #F5E8C8;
+$rimay-gold-ink             : #7D5A1E;
+$rimay-line                 : #DFD0B9;
+$rimay-muted                : #75604E;
+$rimay-footer               : #EFE3CC;
 
-$body-color                 : #fff;
-$background-color           : #fff;
-$code-background-color      : #fafafa;
+$gray                       : $rimay-muted;
+$dark-gray                  : $rimay-brown;
+$darker-gray                : $rimay-ink;
+$light-gray                 : mix($rimay-bg, $rimay-muted, 50%);
+$lighter-gray               : $rimay-line;
+
+$body-color                 : $rimay-bg;
+$background-color           : $rimay-bg;
+$code-background-color      : $rimay-surface;
 $code-background-color-dark : $light-gray;
-$text-color                 : $dark-gray;
-$border-color               : $lighter-gray;
+$text-color                 : $rimay-ink;
+$border-color               : $rimay-line;
 
-$primary-color              : #7a8288;
+$primary-color              : $rimay-primary;
 $success-color              : #62c462;
 $warning-color              : #f89406;
 $danger-color               : #ee5f5b;
@@ -90,11 +105,11 @@ $xing-color                 : #006567;
 
 
 /* links */
-$link-color                 : $info-color;
-$link-color-hover           : mix(#000, $link-color, 25%);
-$link-color-visited         : mix(#fff, $link-color, 25%);
-$masthead-link-color        : $primary-color;
-$masthead-link-color-hover  : mix(#000, $primary-color, 25%);
+$link-color                 : $rimay-primary;
+$link-color-hover           : $rimay-primary-dark;
+$link-color-visited         : $rimay-primary;
+$masthead-link-color        : $rimay-surface;
+$masthead-link-color-hover  : $rimay-gold-light;
 
 
 /*

@@ -1,0 +1,90 @@
+/* ==========================================================================
+   Site-wide Rimay palette: header, sidebar and footer
+   (mirrors the page-chrome rules in assets/css/quechua.css)
+   ========================================================================== */
+
+body {
+  background: $rimay-bg;
+  color: $rimay-ink;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid $rimay-gold;
+  outline-offset: 5px;
+}
+
+/* Header and menu */
+.masthead {
+  background: $rimay-ink;
+  border-bottom: 3px solid $rimay-gold;
+}
+
+.greedy-nav { background: $rimay-ink; }
+.greedy-nav a { color: $rimay-surface; }
+.greedy-nav a:hover { color: $rimay-gold-light; }
+.greedy-nav .visible-links a::before { background: $rimay-gold-light; }
+
+.greedy-nav button {
+  background: $rimay-primary;
+  color: $rimay-surface;
+  border-radius: 5px;
+}
+.greedy-nav .navicon,
+.greedy-nav .navicon::before,
+.greedy-nav .navicon::after { background: $rimay-gold-light; }
+.greedy-nav .close .navicon { background: transparent; }
+.greedy-nav .hidden-links {
+  background: $rimay-surface;
+  border-color: $rimay-line;
+  border-radius: 10px;
+  box-shadow: 0 12px 28px rgba(62, 41, 31, 0.16);
+}
+.greedy-nav .hidden-links a { color: $rimay-brown; }
+.greedy-nav .hidden-links a:hover {
+  background: $rimay-gold-soft;
+  color: $rimay-primary;
+}
+.greedy-nav .hidden-links li { border-bottom-color: $rimay-line; }
+.greedy-nav .hidden-links::before { border-color: $rimay-line transparent; }
+.greedy-nav .hidden-links::after { border-color: $rimay-surface transparent; }
+
+/* Titles and sidebar */
+.page__title { color: $rimay-primary; }
+.sidebar .author__name { color: $rimay-brown; }
+.sidebar .author__bio { color: $rimay-muted; }
+.author__avatar img { border-color: $rimay-line; }
+.author__urls-wrapper button {
+  color: $rimay-brown;
+  background: $rimay-surface;
+  border: 1px solid $rimay-line;
+}
+.author__urls {
+  color: $rimay-brown;
+  background: $rimay-surface;
+  border-color: $rimay-line;
+}
+.author__urls::before { border-color: $rimay-line transparent; }
+.author__urls::after { border-color: $rimay-surface transparent; }
+.sidebar .author__urls a { color: $rimay-brown; }
+.sidebar .author__urls a:hover { color: $rimay-primary; }
+
+@media (min-width: 1200px) {
+  .author__urls { background: transparent; }
+}
+
+/* Lists on Research, Presentations and Teaching */
+.archive__item-title a { color: $rimay-primary; }
+.archive__item-title a:hover { color: $rimay-primary-dark; }
+
+/* Footer */
+.page__footer {
+  color: $rimay-muted;
+  background: $rimay-footer;
+  border-top-color: $rimay-line;
+}
+.page__footer a { color: $rimay-brown; }
+.page__footer .fas,
+.page__footer .fab,
+.page__footer .far,
+.page__footer .fal { color: $rimay-muted; }

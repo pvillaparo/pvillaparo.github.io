@@ -9,10 +9,10 @@ main:
   - title: "Teaching"
     url: /teaching/    
 
-  - title: "Miscellaneous"
-    url: /miscellaneous/
-    
   - title: "CV"
     url: /cv/
+
+  - title: "Miscellaneous"
+    url: /miscellaneous/
     
 
