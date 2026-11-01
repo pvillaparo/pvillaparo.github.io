@@ -1,0 +1,25 @@
+# Projects shown on the "Miscellaneous" tab (/miscellaneous/).
+#
+# Each entry becomes one sub-tab card. To add a new project, copy an entry,
+# change its fields, and (if it lives on this site) create its page in _pages/.
+#
+#   title:       name shown on the card
+#   url:         page address on this site (e.g. /quechua/) or a full https:// link
+#   icon:        optional image in /images/ shown on the card
+#   language:    optional label, useful when the page is not in English
+#   description: one or two sentences about the project
+
+- title: "Quechua · Rimay"
+  url: /quechua/
+  icon: /images/rimay-icon.svg
+  language: "En español"
+  description: >-
+    An interactive study companion built on the Academia Mayor de la Lengua
+    Quechua course materials (levels 1 and 2): guided exercises, a bilingual
+    dictionary, and mixed practice of conjugation, possession, and suffixes.
+
+# Template for a future project — remove the "#" signs to publish it.
+# - title: "Cusco Stats"
+#   url: /cusco-stats/
+#   description: >-
+#     Socio-demographic indicators for Cusco, my hometown.
