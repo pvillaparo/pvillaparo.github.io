@@ -15,6 +15,16 @@ button:focus-visible {
 }
 
 /* Header and menu */
+.masthead--pinned {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+html {
+  scroll-padding-top: 6em;
+}
+
 .masthead {
   background: $rimay-ink;
   border-bottom: 3px solid $rimay-gold;

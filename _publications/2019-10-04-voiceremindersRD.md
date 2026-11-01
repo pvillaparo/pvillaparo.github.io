@@ -4,7 +4,8 @@ collection: publications
 date: 2019-10-04
 permalink: /publication/2019-10-04-voiceremindersRD
 paperurl: "/files/Health_UMich_Beamer_Voice_Messages_and_Early_Vaccination_in_the_DR.pdf"
-paper_label: "Download presentation slides here"
+paper_label: "Slides"
+coauthors: "Kristian Lopez, Sandro Parodi, and Indhira Ramirez"
 excerpt: "With Kristian Lopez, Sandro Parodi, and Indhira Ramirez, I study whether pre-recorded voice reminders can improve early immunization behavior in the Dominican Republic. In a field experiment targeting households with pregnant women or young children, we evaluate reminder messages and find significant spillover effects from messages delivered in the Vice-President's voice."
 
 ---
