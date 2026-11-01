@@ -8,11 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am an Economics PhD student at the University of Michigan, working in public finance, labor, industrial organization, and environmental and energy economics. I study how taxes, mandates, and regulation shape not only what firms do, but also wages, employment, and who gets the rents when employers have labor market power. I also look at how energy policy and the incentives to be formal affect local economies, pollution, and deforestation.
+I am an Economics PhD student at the University of Michigan, working in Public Finance, Labor, and Environmental and Energy Economics. I study how taxes, mandates, and regulation shape firms’ decisions, wages, employment, and who gets the rents when there is market power. I also look at how environmental and energy policies and incentives to enter the formal economy affect local economies, pollution, and deforestation.
 
-For me, these questions started at home, in Cusco, in the Peruvian Andes. Land and education reforms opened new paths for many families in my community, and growing up with that history is why I care about the institutions that decide who can access opportunity. And growing up near regions rich in minerals and natural gas, yet surrounded by extraordinary biodiversity, pushed me to think about the tradeoffs between development, energy, and the environment.
-
-My path into research also began in Peru, where I earned a BA in Economics at the Pontificia Universidad Católica del Perú (PUCP) and worked on laboratory experiments at GECE-PUCP. Along the way, I managed field experiments with Innovations for Poverty Action (IPA) and was a research assistant at the Universidad del Pacífico Research Center. Before my PhD, I was an Economics Research Specialist at Princeton University, and from there I came to Michigan with the questions that started at home.
+For me, these questions started at home, in Peru, where the history of reforms that opened opportunities for many families shaped my interest in how institutions affect people’s lives. At the same time, coming from the Andes drew me to the tradeoffs between development, energy, and environmental protection in a country rich in minerals, natural gas, and biodiversity. My research path also began there, with a BA in Economics at the Pontificia Universidad Católica del Perú (PUCP) and work on laboratory and field experiments at GECE-PUCP and Innovations for Poverty Action. Along the way, I also worked at the Universidad del Pacífico Research Center and as a Predoc at Princeton before coming to Michigan, bringing those questions with me.
 
 <h2 id="research" class="home-section">Research</h2>
 
