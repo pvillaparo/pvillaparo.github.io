@@ -1,8 +1,14 @@
 {%- comment -%}
   List of papers from _publications/, newest first.
-  Used on the homepage and on the Research page, so both stay in sync.
+  Usually called through research-sections.html (homepage and Research page).
+
+  Parameters:
+    include.category  "publication" shows published papers; anything else
+                      shows every paper without category: publication
+    include.title_tag heading tag for paper titles (default h3)
 
   Optional front-matter fields per paper:
+    category:    publication   (published papers; leave it out for working papers)
     coauthors:   "Name One and Name Two"   (shown as "with ...")
     venue:       e.g. a working-paper series or journal
     abstract:    text for the Abstract button (defaults to excerpt)
@@ -10,12 +16,19 @@
     resource_url / resource_label: a second link, e.g. slides
 {%- endcomment -%}
 {%- include base_path -%}
+{%- assign title_tag = include.title_tag | default: "h3" -%}
+{%- if include.category == "publication" -%}
+{%- assign papers = site.publications | where: "category", "publication" -%}
+{%- else -%}
+{%- assign papers = site.publications | where_exp: "p", "p.category != 'publication'" -%}
+{%- endif -%}
+{%- assign papers = papers | sort: "date" | reverse -%}
 <div class="paper-list">
-{%- for paper in site.publications reversed -%}
+{%- for paper in papers -%}
 {%- assign abstract = paper.abstract | default: paper.excerpt -%}
 {%- assign abstract_id = paper.slug | prepend: "abstract-" -%}
 <article class="paper">
-<h3 class="paper__title">{{ paper.title }}</h3>
+<{{ title_tag }} class="paper__title">{{ paper.title }}</{{ title_tag }}>
 {%- if paper.coauthors or paper.venue -%}
 <p class="paper__meta">
 {%- if paper.coauthors -%}with {{ paper.coauthors }}{%- endif -%}
@@ -42,20 +55,3 @@
 </article>
 {%- endfor -%}
 </div>
-<script>
-(function () {
-  var toggles = document.querySelectorAll('.paper__toggle');
-  for (var i = 0; i < toggles.length; i++) {
-    var panel = document.getElementById(toggles[i].getAttribute('aria-controls'));
-    if (!panel) { continue; }
-    panel.hidden = true;
-    toggles[i].hidden = false;
-    toggles[i].addEventListener('click', function () {
-      var target = document.getElementById(this.getAttribute('aria-controls'));
-      var isOpen = this.getAttribute('aria-expanded') === 'true';
-      this.setAttribute('aria-expanded', isOpen ? 'false' : 'true');
-      target.hidden = isOpen;
-    });
-  }
-})();
-</script>

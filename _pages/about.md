@@ -16,4 +16,4 @@ My path into research also began in Peru, where I earned a BA in Economics at th
 
 <h2 id="research" class="home-section">Research</h2>
 
-{% include paper-list.html %}
+{% include research-sections.html level=3 %}

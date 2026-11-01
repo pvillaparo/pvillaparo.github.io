@@ -64,6 +64,21 @@ html {
 .sidebar .author__name { color: $rimay-brown; }
 .sidebar .author__bio { color: $rimay-muted; }
 .author__avatar img { border-color: $rimay-line; }
+
+@include breakpoint($large) {
+  .author__avatar img {
+    display: block;
+    width: 100%;
+    max-width: 230px;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    object-position: 50% 35%;
+    padding: 0;
+    border: 0;
+    border-radius: 16px;
+    box-shadow: 0 9px 24px rgba(62, 41, 31, 0.12);
+  }
+}
 .author__urls-wrapper button {
   color: $rimay-brown;
   background: $rimay-surface;
