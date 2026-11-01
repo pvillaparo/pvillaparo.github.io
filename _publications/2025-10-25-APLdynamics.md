@@ -1,5 +1,5 @@
 ---
-title: "Labor Flexibilization and Employment Sorting"
+title: "Who Gets the Rents? Mandated Benefits and Labor Market Power"
 collection: publications
 date: 2025-10-25
 permalink: /publication/2025-10-25-APLdynamics

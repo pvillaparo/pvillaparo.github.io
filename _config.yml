@@ -86,8 +86,9 @@ author:
   location         : "Ann Arbor, MI"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "https://sites.google.com/pucp.edu.pe/paola-villa-paro/home"
-  email            :
+  googlescholar    : # paste a Google Scholar profile URL here to show it in the sidebar
+  email            : "villap@umich.edu"
+  cv               : "/files/VillaParo_CV_2026.pdf" # shown as "CV" in the sidebar
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,7 +97,8 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "pvillaparo"
+  github           : "pvillaparo" # used in the footer
+  github_in_sidebar: false # set to true to also show GitHub in the sidebar
   google_plus      :
   keybase          :
   instagram        :
