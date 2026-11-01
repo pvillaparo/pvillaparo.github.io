@@ -21,8 +21,8 @@
   align-items: flex-start;
   padding: 1.25em;
   border: 1px solid $border-color;
-  border-radius: $border-radius;
-  background: $background-color;
+  border-radius: 16px;
+  background: $rimay-surface;
   color: $text-color;
   text-decoration: none;
   transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
@@ -34,13 +34,13 @@
   &:hover,
   &:focus {
     color: $text-color;
-    border-color: $light-gray;
-    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+    border-color: $rimay-gold;
+    box-shadow: 0 9px 24px rgba(62, 41, 31, 0.1);
     transform: translateY(-2px);
   }
 
   &:focus-visible {
-    outline: 2px solid $link-color;
+    outline: 3px solid $rimay-gold;
     outline-offset: 2px;
   }
 }
@@ -60,6 +60,7 @@
 }
 
 .misc-card__title {
+  color: $rimay-primary;
   font-weight: bold;
   font-size: $type-size-4;
   line-height: 1.3;
@@ -69,7 +70,8 @@
   align-self: flex-start;
   padding: 0.1em 0.6em;
   border-radius: 1em;
-  background: $lighter-gray;
+  background: $rimay-gold-soft;
+  color: $rimay-gold-ink;
   font-size: $type-size-6;
 }
 
