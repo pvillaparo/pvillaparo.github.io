@@ -1,6 +1,7 @@
 ---
 title: "Perceptions of Own Social Class and Local Affluence: Effects on Preferences for Redistribution"
 collection: publications
+category: publication
 date: 2026-02-01
 permalink: /publication/2026-08-31-perceived-local-inequalities-lima
 paperurl: "https://doi.org/10.1016/j.jebo.2026.107766"

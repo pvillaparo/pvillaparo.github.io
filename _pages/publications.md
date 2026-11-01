@@ -11,4 +11,4 @@ author_profile: true
 
 {% include base_path %}
 
-{% include paper-list.html %}
+{% include research-sections.html level=2 %}
