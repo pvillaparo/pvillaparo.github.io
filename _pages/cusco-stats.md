@@ -7,7 +7,7 @@ author_profile: true
 cusco_theme: true
 share_title: "Cusco-stats · The 116 districts of Cusco, in data"
 share_description: "Interactive charts and maps of canon transfers, municipal budgets, schools, households and poverty for the districts of Cusco, Peru, built from official INEI statistics. In English and Spanish."
-share_image: "/images/cusco-stats-share-v1.png"
+share_image: "/images/cusco-stats-share-v2.png"
 share_image_alt: "Cusco-stats: a map of the 116 districts of Cusco shaded in blue by canon per person, next to the title The 116 districts of Cusco, Peru, in data."
 ---
 
@@ -31,7 +31,7 @@ share_image_alt: "Cusco-stats: a map of the 116 districts of Cusco shaded in blu
     </div>
     <figure class="cs-hero-map">
       <img src="{{ base_path }}/images/cusco-stats-map.svg" width="400" height="480" alt="Map of the districts of Cusco shaded by canon per person: the districts of La Convención, in the north, receive by far the most.">
-      <figcaption>Canon per person by district, 2020–2024 average. Lighter means more.</figcaption>
+      <figcaption>Canon per person by district, 2020–2024 average. Darker means more.</figcaption>
     </figure>
   </section>
 
