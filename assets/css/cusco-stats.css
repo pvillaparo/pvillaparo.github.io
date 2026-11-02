@@ -156,6 +156,8 @@
 }
 #cusco-stats .cs-hero-map figcaption {
   margin-top: 10px;
+  font-family: inherit;   /* the theme sets figure captions in a serif face */
+  font-style: normal;
   color: var(--cs-hero-muted);
   font-size: .64rem;
   line-height: 1.5;
