@@ -30,6 +30,31 @@
 <meta name="twitter:url" content="{{ page_url }}">
 <meta name="twitter:image" content="{{ share_image }}">
 <meta name="twitter:image:alt" content="{{ page.share_image_alt | escape }}">
+{% elsif page.cusco_theme %}
+{% assign share_title = page.share_title | default: page_title %}
+{% assign share_description = page.share_description | default: page_desc %}
+{% assign share_image = page.share_image | absolute_url %}
+<!-- Cusco-stats link preview -->
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="es_PE">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ share_title | escape }}">
+<meta property="og:description" content="{{ share_description | strip_newlines | escape }}">
+<meta property="og:url" content="{{ page_url }}">
+<meta property="og:site_name" content="Cusco-stats">
+<meta property="og:image" content="{{ share_image }}">
+<meta property="og:image:secure_url" content="{{ share_image }}">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{{ page.share_image_alt | escape }}">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ share_title | escape }}">
+<meta name="twitter:description" content="{{ share_description | strip_newlines | escape }}">
+<meta name="twitter:url" content="{{ page_url }}">
+<meta name="twitter:image" content="{{ share_image }}">
+<meta name="twitter:image:alt" content="{{ page.share_image_alt | escape }}">
 {% else %}
 <!-- Open Graph -->
 <meta property="og:type" content="website">
@@ -60,6 +85,10 @@
 <link rel="stylesheet" href="{{ base_path }}/assets/css/quechua.css">
 <link rel="icon" type="image/svg+xml" href="{{ base_path }}/images/rimay-icon.svg">
 <meta name="theme-color" content="#7B272B">
+{% elsif page.cusco_theme %}
+<link rel="stylesheet" href="{{ base_path }}/assets/css/cusco-stats.css">
+<link rel="icon" type="image/svg+xml" href="{{ base_path }}/images/cusco-stats-icon.svg">
+<meta name="theme-color" content="#1D1C1A">
 {% else %}
 <link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y=".9em" font-size="90">👩🏽‍🎓</text></svg>'>
 <link rel="apple-touch-icon" sizes="57x57" href="{{ base_path }}/images/apple-touch-icon-57x57.png?v=M44lzPylqQ">

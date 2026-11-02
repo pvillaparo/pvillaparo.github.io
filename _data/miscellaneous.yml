@@ -18,8 +18,11 @@
     Quechua course materials (levels 1 and 2): guided exercises, a bilingual
     dictionary, and mixed practice of conjugation, possession, and suffixes.
 
-# Template for a future project — remove the "#" signs to publish it.
-# - title: "Cusco Stats"
-#   url: /cusco-stats/
-#   description: >-
-#     Socio-demographic indicators for Cusco, my hometown.
+- title: "Cusco-stats"
+  url: /cusco-stats/
+  icon: /images/cusco-stats-icon.svg
+  language: "English · Español"
+  description: >-
+    Socio-demographic indicators for Cusco, my hometown: interactive charts
+    and maps of canon, municipal budgets, schools, households and poverty
+    for its 116 districts, harmonized from official statistics.
