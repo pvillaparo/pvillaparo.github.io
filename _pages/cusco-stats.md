@@ -30,7 +30,7 @@ share_image_alt: "Cusco-stats: a map of the 116 districts of Cusco shaded in blu
       <p class="cs-hero-note">English and Spanish · Charts and maps for every district · Downloadable data</p>
     </div>
     <figure class="cs-hero-map">
-      <img src="{{ base_path }}/images/cusco-stats-map.svg" width="400" height="480" alt="Map of the districts of Cusco shaded by canon per person: the districts of La Convención, in the north, receive by far the most.">
+      <img src="{{ base_path }}/images/cusco-stats-map.svg" width="400" height="480" alt="Map of the districts of Cusco shaded by canon per person: Megantoni and the other gas districts of La Convención, in the north, receive by far the most; some mining districts of Espinar, in the far south, also rank high.">
       <figcaption>Canon per person by district, 2020–2024 average. Darker means more.</figcaption>
     </figure>
   </section>
@@ -51,7 +51,7 @@ share_image_alt: "Cusco-stats: a map of the 116 districts of Cusco shaded in blu
     <article class="cs-feature">
       <span class="cs-feature-number">03</span>
       <h3>Take the data with you</h3>
-      <p>Every view can be shared as a link and downloaded as a CSV file. The code and the harmonized dataset are open on GitHub.</p>
+      <p>Every explorer view can be shared as a link, and the places in its chart downloaded as a CSV file. The code and the full harmonized dataset are open on GitHub.</p>
     </article>
   </section>
 
@@ -59,7 +59,7 @@ share_image_alt: "Cusco-stats: a map of the 116 districts of Cusco shaded in blu
     <h3 id="cs-sources-title">Data and sources</h3>
     <p>The figures come from the <strong>Regional Information System for Decision Making (SIRTOD)</strong> of INEI, Peru's national statistics institute, which compiles official series from INEI itself, the Ministry of Economy and Finance, the Ministry of Education and other public agencies.</p>
     <p>Harmonizing them involved a few choices that matter for interpretation: population projections from the 2007 and 2017 censuses are spliced into one series, provincial and departmental figures are shown only when enough districts report, and money in constant soles is deflated with the Cusco city consumer price index. All of this is documented, step by step, in <a href="https://pvillaparo.github.io/cusco-data/methods.html">Methods &amp; data</a>.</p>
-    <p class="cs-source-line">Data: INEI, SIRTOD (download of September 2026). District boundaries: INEI, IDE 2024 edition. Harmonized data and text: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>; code: <a href="https://github.com/pvillaparo/cusco-data/blob/main/LICENSE">MIT</a>.</p>
+    <p class="cs-source-line">Data: INEI, SIRTOD (download of September 2026). District boundaries: INEI, IDE 2024 edition. Harmonized data and the app's text: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>; code: <a href="https://github.com/pvillaparo/cusco-data/blob/main/LICENSE">MIT</a>.</p>
   </section>
 
   <aside class="cs-notes" aria-labelledby="cs-notes-title">

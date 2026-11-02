@@ -159,7 +159,7 @@
   font-family: inherit;   /* the theme sets figure captions in a serif face */
   font-style: normal;
   color: var(--cs-hero-muted);
-  font-size: .64rem;
+  font-size: .72rem;
   line-height: 1.5;
 }
 
@@ -223,8 +223,8 @@
   margin: 0 0 13px;
   font-size: .83rem;
 }
-#cusco-stats .cs-sources a { color: var(--cs-accent); }
-#cusco-stats .cs-sources a:hover { color: var(--cs-accent-dark); }
+#cusco-stats .cs-sources a, #cusco-stats .cs-notes a { color: var(--cs-accent); }
+#cusco-stats .cs-sources a:hover, #cusco-stats .cs-notes a:hover { color: var(--cs-accent-dark); }
 #cusco-stats .cs-sources .cs-source-line {
   padding-top: 12px;
   margin-bottom: 0;
